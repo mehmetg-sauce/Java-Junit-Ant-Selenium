@@ -9,10 +9,8 @@
 ### Environment Setup
 
 1. Global Dependencies
-* Install Maven
-        https://ant.apache.org/manual/install.html
-* Or Install Ant with Homebrew
-        http://brew.sh/ <br>
+* Install [Ant](https://ant.apache.org/manual/install.html)
+* Or Install Ant with [Homebrew](http://brew.sh/)<br>
 ```
 $ brew install ant
 ```
@@ -26,8 +24,8 @@ $ brew install ant
 3. Project Dependencies
 	* Check that Packages are available by compiling your test code.
 	```
-	$ cd Java-Junit-Selenium
-	$ mvn test-compile
+	$ cd Java-Junit-Ant-Selenium
+	$ ant test-compile
 	```
 ### Running Tests
 	* Tests in Parallel:<br>
