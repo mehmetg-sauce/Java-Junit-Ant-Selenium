@@ -19,7 +19,7 @@ $ brew install ant
     * In the terminal export your Sauce Labs Credentials as environmental variables: <br>
 ```$ export SAUCE_USERNAME=<your Sauce Labs username>``` <br>
 ```$ export SAUCE_ACCESS_KEY=<your Sauce Labs access key>```
-    ####Optional:
+    * Optional: Adds a tag to your build so it'll be listed under automated builds on the [Sauce Labs Dashboard](https://saucelabs.com/beta/dashboard/).<br>
 ```$ export BUILD_TAG=<your build tag>```    
 3. Project Dependencies
 	* Check that Packages are available by compiling your test code.
