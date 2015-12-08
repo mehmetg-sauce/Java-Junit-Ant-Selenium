@@ -1,6 +1,6 @@
 ![alt](https://saucelabs.com/images/sauce-labs-logo.png)
 
-## Java-Junit-Selenium
+## Java-Junit-Ant-Selenium
 
 >This code is presented as an example only, since your tests and testing environments may require specialized scripting. This information should be taken only as an
 >illustration of how one would set up tests with Sauce Labs, and any modifications will not be supported. For questions regarding Sauce Labs integration, please see 
@@ -9,10 +9,8 @@
 ### Environment Setup
 
 1. Global Dependencies
-* Install Maven
-        https://ant.apache.org/manual/install.html
-* Or Install Ant with Homebrew
-        http://brew.sh/ <br>
+* Install [Ant](https://ant.apache.org/manual/install.html)
+* Or Install Ant with [Homebrew](http://brew.sh/)<br>
 ```
 $ brew install ant
 ```
@@ -21,19 +19,19 @@ $ brew install ant
     * In the terminal export your Sauce Labs Credentials as environmental variables: <br>
 ```$ export SAUCE_USERNAME=<your Sauce Labs username>``` <br>
 ```$ export SAUCE_ACCESS_KEY=<your Sauce Labs access key>```
-    ####Optional:
+    * Optional: Adds a tag to your build so it'll be listed under automated builds on the [Sauce Labs Dashboard](https://saucelabs.com/beta/dashboard/).<br>
 ```$ export BUILD_TAG=<your build tag>```    
 3. Project Dependencies
 	* Check that Packages are available by compiling your test code.
 	```
-	$ cd Java-Junit-Selenium
-	$ mvn test-compile
+	$ cd Java-Junit-Ant-Selenium
+	$ ant test-compile
 	```
 ### Running Tests
-Tests in Parallel:<br>
-```
-$ ant test
-```
+	* Tests in Parallel:<br>
+	```
+	$ ant test
+	```
 
 [Sauce Labs Dashboard](https://saucelabs.com/beta/dashboard/)
 
