@@ -30,10 +30,10 @@ $ brew install ant
 	$ mvn test-compile
 	```
 ### Running Tests
-Tests in Parallel:<br>
-```
-$ ant test
-```
+	* Tests in Parallel:<br>
+	```
+	$ ant test
+	```
 
 [Sauce Labs Dashboard](https://saucelabs.com/beta/dashboard/)
 
