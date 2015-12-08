@@ -10,16 +10,6 @@
 
 1. Global Dependencies
 * Install Maven
-    https://maven.apache.org/install.html
-* Or Install Maven with Homebrew
-    http://brew.sh/ <br>
-```
-$ brew install maven
-```
-    
-####Optional:
-
-* Install Maven
         https://ant.apache.org/manual/install.html
 * Or Install Ant with Homebrew
         http://brew.sh/ <br>
@@ -41,10 +31,6 @@ $ brew install ant
 	```
 ### Running Tests
 Tests in Parallel:<br>
-```
-$ mvn test
-```
-####Optional:
 ```
 $ ant test
 ```
